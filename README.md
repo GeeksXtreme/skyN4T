@@ -32,7 +32,7 @@
 - nodejs init.js - now you are a Zombie :)
 
 
-# 4. Send Commands to the Botnet using the TechCOM interface
+## 4. Send Commands to the Botnet using TechCOM interface
 
 - Login to your machine (should be able to reach skynet.org)
 - Surf to http://skynet.org/techcom/ or http://localhost:8080/external/techcom/
