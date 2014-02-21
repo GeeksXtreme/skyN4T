@@ -1,0 +1,35 @@
+{
+	"tags": {},
+
+	"tree": {
+
+		"entity": {
+			"Button":   [ "js" ],
+			"Circle":   [ "js", "snd" ],
+			"lycheeJS": [ "js", "png" ]
+		},
+
+		"net": {
+
+			"client": {
+				"Ping": [ "js" ]
+			},
+
+			"remote": {
+				"Ping": [ "js" ]
+			},
+
+			"Client": [ "js" ],
+			"Server": [ "js" ]
+
+		},
+
+		"state": {
+			"Game": [ "js", "json", "headline.fnt", "normal.fnt" ]
+		},
+
+		"DeviceSpecificHacks": [ "js" ],
+		"Main":                [ "js", "css" ]
+
+	}
+}

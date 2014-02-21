@@ -1,0 +1,84 @@
+{
+	"layers": {
+		"ui": {
+			"constructor": "lychee.ui.Layer",
+			"arguments": [{}],
+			"blob": {
+				"entities": [{
+					"constructor": "lychee.ui.Label",
+					"arguments": [{
+						"label": "Game State active",
+						"position": {
+							"x": 0,
+							"y": -50
+						}
+					}],
+					"blob": {
+						"font": {
+							"constructor": "Font",
+							"arguments": [ "./source/state/Game.headline.fnt" ]
+						}
+					}
+				}, {
+					"constructor": "lychee.ui.Label",
+					"arguments": [{
+						"label": "Touch the circle to make Noise",
+						"position": {
+							"x": 0,
+							"y": 0
+						}
+					}],
+					"blob": {
+						"font": {
+							"constructor": "Font",
+							"arguments": [ "./source/state/Game.normal.fnt" ]
+						}
+					}
+				}, {
+					"constructor": "game.entity.Circle",
+					"arguments": [{
+						"position": {
+							"x": 0,
+							"y": 150
+						}
+					}, "#this.game"]
+				}, {
+					"constructor": "lychee.ui.Label",
+					"arguments": [{
+						"label": "Ping: - ms / - ms",
+						"position": {
+							"x": 0,
+							"y": 50
+						}
+					}],
+					"blob": {
+						"font": {
+							"constructor": "Font",
+							"arguments": [ "./source/state/Game.normal.fnt" ]
+						}
+					}
+				}, {
+					"constructor": "game.entity.Button",
+					"arguments": [{
+						"label": "Exit to Menu",
+						"position": {
+							"x": 0,
+							"y": 0
+						}
+					}, "#this.game"],
+					"blob": {
+						"font": {
+							"constructor": "Font",
+							"arguments": [ "./source/state/Game.normal.fnt" ]
+						}
+					}
+				}],
+				"map": {
+					"circle":     2,
+					"statistics": 3,
+					"button":     4
+				}
+			}
+		}
+	}
+}
